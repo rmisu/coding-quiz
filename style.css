@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box}
+
+:root {
+     --primary: #2400b5;
+     --secondary: white}
+
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--secondary)}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    background: var(--primary);
+    font-size: 14pt;
+    color: var(--secondary);
+    border-radius: 10px;
+    margin:0 auto;
+    display: block}
+
+.quiz-container {
+    justify-content: center;
+    display: inline-block;
+    margin: 10px}
